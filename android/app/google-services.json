@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "654980044364",
+    "project_id": "habitsync-92ecc",
+    "storage_bucket": "habitsync-92ecc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:654980044364:android:a7ff032e439fd97cc606e9",
+        "android_client_info": {
+          "package_name": "com.example.habit_sync"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6U6ke_EwVpT_9NFuc0ltvQAwc4wAxOz0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
