@@ -21,7 +21,7 @@ class OnboardingView extends StatelessWidget {
                       Icon(
                         Icons.people,
                         size: 196,
-                        color: Theme.of(context).primaryColor,
+                        color: Theme.of(context).colorScheme.primary,
                       ),
                       Text(
                         "Build habits. Grow together.",
