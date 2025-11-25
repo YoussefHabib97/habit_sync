@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
-import 'package:flutter_svg/svg.dart';
-import 'package:habit_sync/features/presentation/widgets/onboarding_animated_column.dart';
+import 'package:habit_sync/core/utils/widgets/animated_column.dart';
+import 'package:habit_sync/core/utils/widgets/app_logo.dart';
+import 'package:habit_sync/core/utils/widgets/app_logo_text.dart';
 
 class OnboardingView extends StatelessWidget {
   const OnboardingView({super.key});
@@ -16,26 +17,10 @@ class OnboardingView extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               // Animation timer start: 0sec
-              OnboardingAnimatedColumn(
+              AnimatedColumn(
                 animationDuration: 300.ms,
-                children: [
-                  SvgPicture.asset(
-                    "assets/images/logo-cropped.svg",
-                    colorFilter: ColorFilter.mode(
-                      Theme.of(context).colorScheme.primary,
-                      BlendMode.modulate,
-                    ),
-                  ),
-                  Text(
-                    "HabitSync",
-                    style: TextStyle(
-                      fontSize: 28,
-                      fontWeight: FontWeight.w700,
-                      color: Theme.of(context).colorScheme.primary,
-                    ),
-                    textAlign: TextAlign.center,
-                  ),
-                ],
+                delay: 500.ms,
+                children: [AppLogoWidget(), AppLogoText()],
               ),
               SizedBox(height: 32),
 
@@ -50,7 +35,7 @@ class OnboardingView extends StatelessWidget {
               SizedBox(height: MediaQuery.of(context).size.height * 0.125),
 
               // Animation timer - time passed: 800ms
-              OnboardingAnimatedColumn(
+              AnimatedColumn(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 intervalBetweenElements: 300.ms,
                 animationDuration: 300.ms,
