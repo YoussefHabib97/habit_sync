@@ -1,5 +1,5 @@
-import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
+import 'package:habit_sync/features/presentation/views/onboarding_view.dart';
 
 // GoRouter configuration
 final appRouter = GoRouter(
@@ -7,7 +7,7 @@ final appRouter = GoRouter(
     GoRoute(
       path: '/',
       // TODO: Setup default route later
-      builder: (context, state) => Scaffold(),
+      builder: (context, state) => OnboardingView(),
     ),
   ],
 );
