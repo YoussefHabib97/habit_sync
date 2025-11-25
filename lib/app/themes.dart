@@ -18,6 +18,6 @@ ThemeData buildTheme(Color seedColor, Brightness brightness) {
   );
 
   return baseTheme.copyWith(
-    textTheme: GoogleFonts.arimoTextTheme(baseTheme.textTheme),
+    textTheme: GoogleFonts.poppinsTextTheme(baseTheme.textTheme),
   );
 }
