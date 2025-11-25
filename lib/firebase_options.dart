@@ -70,6 +70,8 @@ class DefaultFirebaseOptions {
     messagingSenderId: '654980044364',
     projectId: 'habitsync-92ecc',
     storageBucket: 'habitsync-92ecc.firebasestorage.app',
+    iosClientId: '654980044364-guapbke73qmh0oudn1mdtk1vleetb4b7.apps.googleusercontent.com',
     iosBundleId: 'com.example.habitSync',
   );
+
 }

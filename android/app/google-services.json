@@ -12,7 +12,12 @@
           "package_name": "com.example.habit_sync"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "654980044364-tiuqbtku9vg88pci1h8729k81tl7v1mo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyD6U6ke_EwVpT_9NFuc0ltvQAwc4wAxOz0"
@@ -20,7 +25,19 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "654980044364-tiuqbtku9vg88pci1h8729k81tl7v1mo.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "654980044364-guapbke73qmh0oudn1mdtk1vleetb4b7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.habitSync"
+              }
+            }
+          ]
         }
       }
     }
