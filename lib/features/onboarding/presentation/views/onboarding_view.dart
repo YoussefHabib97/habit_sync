@@ -59,7 +59,7 @@ class OnboardingView extends StatelessWidget {
                     ),
                     child: ElevatedButton(
                       onPressed: () {},
-                      child: Text("Continue as guest"),
+                      child: Text("Create an account"),
                     ),
                   ),
                   Padding(
@@ -69,11 +69,12 @@ class OnboardingView extends StatelessWidget {
                     ),
                     child: TextButton(
                       onPressed: () {},
-                      child: Text("Why HabitSync?"),
+                      child: Text("Continue as a guest"),
                     ),
                   ),
                 ],
               ),
+
               // Animation timer - time passed: 2400ms
             ],
           ),
